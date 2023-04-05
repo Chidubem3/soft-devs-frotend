@@ -1,0 +1,32 @@
+
+*{
+  background-color: rebeccapurple;  
+}
+
+h2{
+    font-size: 24px;
+    line-height: 28px;
+    width: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* background-color: rgb(46, 36, 36); */
+    border: palegoldenrod ;
+    /* margin: */
+}
+h1{
+    color: blue;
+    font-size: 4rem;
+}
+.inputtag{
+    padding: 6px;
+    
+}
+.form{
+    background-color: white;
+    border:currentColor solid;
+}
