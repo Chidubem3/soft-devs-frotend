@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.NAV1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 3px 20px 1px;
+}
+.links{
+    display: flex;
+    gap: 1.5rem;
+}
+.navlist{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+}
+.navlist :hover{
+    background-color: rgba(199, 218, 248, 0.5);
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.PAR{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+}
+
+.signin-Button{
+    border:rgba(0,97,86) solid 1px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color:rgba(0,97,86);
+
+}
+
+.signin-Button:hover{
+    background-color: rgba(22, 215, 0, 0.5);
+}
+
+.create-Button{
+    border: none ;
+    background-color: rgba(255,206,0);
+    border-radius: 5px;
+    /* up down down left */
+    padding: 4px 10px 2px 10px;;
+    color: black;
+}
+
+.first{
+    width: 100%;
+    background-color: rgb(249, 241, 213);   
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.firsth2{
+    color: rgba(0,97,86);
+    padding-bottom: 20px;
+    font-weight: 1000;
+}
+.world{
+    float: right;
+    max-height: 320px;
+    max-width: 320px;
+    display: flex;
+    
+}
+#Get{
+    border: none;
+    background-color: rgba(255,206,0);
+    border-radius: 5px;
+    /* up down down left */
+    padding: 10px 10px 10px 10px;
+    color: black;
+    width: 9rem;
+    margin-left: 20px;
+}
+.hold_text{
+    margin-top: 3rem;
+}
+
+
+.hold_text p {
+    color: rgba(157,168,182);
+}
+
+.hold_text h2{
+    font-size: 46px;
+    width: 500px;
+}
+
+.hold_text p{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+#paylogo{
+    height: 40px;
+    width: 80px;
+    background-color: none;
+}
+
+.logo{
+    padding-top: 1.5rem;
+}
+
+/* Gateway (second) */
+.second{
+    background-color:  rgba(0,97,86) ;
+    align-items: center;
+    min-height: 500px;
+    
+    
+}
+.me{
+    height: 500px;
+    width: 50%;
+    max-width: 40rem;
+    display: flex;
+    float:right;
+}
+.hold_text2{
+    color: white;
+    justify-content: center;
+    
+    width: 50%;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+
+
+
+}
+.hold_text2 h2{
+    font-size: 46px;
+    padding-bottom: 3rem;
+}
+.hold_text2 p,h2{
+    max-width: 450px;   
+}
+
+/* Third part */
+
+.third{
+    background-color: rgb(118, 255, 239);
+    height: 600px;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    /* margin-top: 70px; */
+
+}
+
+.secure{
+    border-right: seagreen solid;
+    width: 30%;
+    float: left;
+    padding: 10px;
+    background-color: rgb(118, 255, 239);
+}
+.easy{
+    border-right: seagreen solid;
+    width: 40%;
+    float: left;
+    padding: 10px;
+    padding-bottom: 40px;
+    background-color: rgb(118, 255, 239);
+
+}
+
+.built{
+    width: 30%;
+    float: left;
+    padding: 10px;
+    background-color: rgb(118, 255, 239);
+}
+
+.third h3{
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    font-size: 2rem;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.third p{
+ padding-left: 5px;
+
+}
+
+.air{
+    height: 20rem;
+}
+
+.car{
+    height: 20rem;    
+}
+
+.headphones{
+    height: 21rem;
+}
+.four{
+    height: 250px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: rgb(34, 32, 32);
+}
+
+.fifth{
+    background-color: rgb(215, 251, 251);
+    height: 450px;
+}
+
+.phone{
+
+    height: 90px;
+    margin-left: 48%;
+    margin-top: 3%;
+}
+.fif{
+    border:none solid;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color:  rgb(252,242,219);
+    height: 300px;
+    /* padding-bottom: 20px; */
+    border-radius: 50px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    /* text-align: center; */
+}
+
+.fifh2{
+    padding-bottom: 6px;
+    font-size: 36px;
+
+
+}
+.fifp{
+    width: 40%;
+    font-size: large;
+}
+
+.sub{
+    padding-top: 2rem;
+    display: flex;
+    gap: 3%;
+
+
+}
+.EM{
+    border: none;
+    height: 60px;
+    width: 20rem;
+    border-radius: 20px;
+    padding-left: 10px;
+
+}
+
+.SU{
+    border: none;
+    height: 60px;
+    width: 10rem;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.EM:focus{
+    border:1px rgb(255,206,0) solid ;
+    outline: 1px rgb(255,206,0) solid;
+    outline-offset: 1px;
+
+}
+
+.SU:hover{
+    background-color: rgba(0,97,86) ;
+}

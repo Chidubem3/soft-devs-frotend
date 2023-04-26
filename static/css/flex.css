@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+h1{
+    color: white;
+    background-color: forestgreen;
+    text-align: center;
+    padding-top: 30px;
+    height: 60px;
+    border: none;
+    
+}
+
+section{
+    background-color: aqua;
+}
+
+article{
+    border-top: white solid 10px;
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+    padding: 20px;
+    border-left: white solid 10px;
+}
+
+p{
+    padding-top: 10px;
+}
