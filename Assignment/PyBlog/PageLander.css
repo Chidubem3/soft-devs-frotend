@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 2rem;
+  color: hsl(185, 68%, 20%);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-right: 2rem;
+}
+.sidenav a {
+  text-decoration: none;
+}
+
+.sidenav a img {
+  height: 1.5rem;
+  margin-top: 0.5rem;
+  padding-left: 0.2rem;
+}
+
+nav a {
+  padding: 1rem;
+  text-decoration: none;
+  color: #3f4954;
+  font-family: "Comic Neue", cursive;
+}
+
+nav a:hover {
+  border-radius: 3rem;
+  border: none;
+  background-color: #104f55;
+  color: white;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+.first {
+  height: 30.2rem;
+  padding-top: 15rem;
+  text-align: center;
+  background-image: url(./image/Background-image.png);
+  color: white;
+}
+.first button{
+  margin-top: 2rem;
+  padding: 1.5rem 3rem;
+  font-size: larger;
+  border-radius: 3rem;
+  background-color: transparent;
+  color: white;
+  border: white solid;
+}
+.first button:hover{
+  background-color: #104f55;
+  border: none;
+}
+
+h3 {
+  padding-top: 2rem;
+  font-family: "Coming Soon", cursive;
+  /* font-family: cursive; */
+}
+
+.first h3 {
+  font-size: 28px;
+}
+
+.first h1 {
+  font-size: 40px;
+  /* font-family */
+}
+
+.slideshow {
+  margin-top: 2rem;
+  padding-top: 3rem ;
+  background-image: url(./image/Background2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60rem;
+  display: flex;
+  padding: 1rem;
+  gap: 4rem;
+  overflow: scroll;
+  transform: translate(y);
+  align-items: center;
+  /* padding-left: 9rem; */
+}
+
+#slideimg {
+  height: 250px;
+  width: 350px;
+}
+
+.slide {
+  height: 30rem;
+  /* width: 100%; */
+  background-color: transparent;
+  box-shadow: 0 15px 20px rgb(15 59 54);
+  
+}
+
+.slide h3 {
+  text-align: center;
+}
+
+.slide button {
+  margin-top: 10%;
+  margin-left:30%;
+  padding: 1.5rem 3rem;
+  border-radius: 2rem;
+  background-color: #104f55;
+  color: #faffff;
+  border: none;
+}
+.slide button:hover{
+  outline: 1px #104f55 solid;
+  outline-offset: 2px;
+}
